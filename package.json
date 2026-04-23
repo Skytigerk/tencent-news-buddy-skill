@@ -1,0 +1,16 @@
+{
+  "name": "tencent-news-buddy-skill",
+  "version": "3.1.0",
+  "description": "腾讯新闻搭子 (Tencent News Buddy) — 基于隐式画像的个性化实时新闻推荐与 SCQA 结构化解读",
+  "main": "scripts/news-buddy.cjs",
+  "scripts": {
+    "start": "node scripts/news-buddy.cjs",
+    "profile": "node scripts/news-buddy.cjs --get-profile",
+    "daily-update": "node scripts/news-buddy.cjs --daily-update",
+    "reset": "node scripts/news-buddy.cjs --reset-profile",
+    "debug": "node scripts/news-buddy.cjs --debug-profile"
+  },
+  "dependencies": {},
+  "keywords": ["tencent", "news", "ai", "persona", "scqa", "web-search", "openclaw", "codebuddy", "skill", "personalized", "profile-decay", "automation", "sentiment"],
+  "license": "MIT"
+}
